@@ -12,6 +12,17 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+
+
+
+
+
+
+
+
+
+
+
 @WebServlet("/UserInfoServlet")
 public class UserInfoServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -69,7 +80,7 @@ public class UserInfoServlet extends HttpServlet {
 			response.sendRedirect("UserInfoSuccess.jsp");
 			
 		} catch (SQLException e) {
-			// ½ÇÆÐÇÒ °æ¿ì ÀÌµ¿ÇÒ ÆäÀÌÁö ¼³Á¤
+			// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 			response.sendRedirect("UserInfoError.jsp");
 			e.printStackTrace();
 		}
