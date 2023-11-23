@@ -7,6 +7,8 @@
 <title>마이페이지 메인화면</title>    
 
 <link rel="stylesheet" type="text/css" link href="MyPageMain.css">
+
+
 </head>
 <body>
        <header>
